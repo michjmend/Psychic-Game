@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Psychic Game</title>
 
+</head>
+
+<body>
+
+  <h1>The Psychic Game</h1>
+
+  <h2>Guess what letter I'm thinking of</h2>
+
+  <h3 id="wins-text"></h3>
+  <!-- (# of times the user has guessed the letter correctly) -->
+
+  <h3 id="losses-text"></h3>
+  <!-- (# of times the user has failed to guess the lettere correctly after exhausting all guesses) -->
+
+  <h3 id="guessesleft-text"></h3>
+  <!-- (# of guesses left. This will update) -->
+
+  <h3 id="guessessofar-text"></h3>
+  <!-- (the specific letters that the user typed. Display these until the user either wins or loses.) -->
+
+  <!-- When the player wins, increase the Wins counter and start the game over again (without refreshing the page)
+  When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins). -->
+
+  <script src="./assets/javascript/game.js"></script>
+
+</body>
+</html>
